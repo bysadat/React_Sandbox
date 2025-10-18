@@ -42,13 +42,7 @@ const Rating = ({ heading = 'Rate Your Experience!', color = 'gold' }) => {
       </div>
       {rating > 0 && <p className="feedBack">{feedBack[rating - 1]}</p>}
 
-      {/* <button
-        className="submit-btn"
-        
-        
-      >
-        submit
-      </button> */}
+     
 
       <Button
         className="submit-btn"
